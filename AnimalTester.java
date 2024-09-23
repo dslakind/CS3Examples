@@ -8,6 +8,5 @@ public class AnimalTester {
 
         Animal animal3 = new Animal();
         System.out.println(animal3);
-
     }
 }

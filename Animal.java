@@ -7,7 +7,7 @@ public class Animal
     private int numLegs;
     private double weight;
 
-    // constructors
+    // constructor 1
     public Animal(String theName, String theSpecies, String theFood, int legs, double w)
     {
         name = theName;
@@ -17,6 +17,7 @@ public class Animal
         weight = w;
     }
 
+    // constructor 2
     public Animal(String theName, String theSpecies)
     {
         name = theName;
@@ -26,6 +27,7 @@ public class Animal
         weight = 20.5;
     }
 
+    // constructor 3 default
     public Animal()
     {
         name = "Default Animal";
@@ -35,6 +37,7 @@ public class Animal
         weight = 0.0;
     }
 
+    // used when printing an Animal object. 
     @Override
     public String toString() {
         return "Animal [name=" + name + ", species=" + species + ", favFood=" + favFood + ", numLegs=" + numLegs
