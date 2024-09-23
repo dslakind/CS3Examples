@@ -1,3 +1,9 @@
+/**
+ * Lesson 2.2. Creating and Initializing Objects: Constructors
+ * @version 09232024
+ * @see AnimalTester.java
+ * Example of constructor overloading.
+ */
 public class Animal
 {
     // instance variable devlaration
@@ -37,12 +43,12 @@ public class Animal
         weight = 0.0;
     }
 
-    // used when printing an Animal object. 
-    @Override
-    public String toString() {
-        return "Animal [name=" + name + ", species=" + species + ", favFood=" + favFood + ", numLegs=" + numLegs
-                + ", weight=" + weight + "]";
-    }
+    // used when printing an Animal object. Comment out to print the reference number. 
+    // @Override
+    // public String toString() {
+    //     return "Animal [name=" + name + ", species=" + species + ", favFood=" + favFood + ", numLegs=" + numLegs
+    //             + ", weight=" + weight + "]";
+    // }
 
     
 }
