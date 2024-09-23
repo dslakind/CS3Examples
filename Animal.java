@@ -2,6 +2,7 @@
  * Lesson 2.2. Creating and Initializing Objects: Constructors
  * @version 09232024
  * @see AnimalTester.java
+ * @author: Mr. Lakind
  * Example of constructor overloading.
  */
 public class Animal
